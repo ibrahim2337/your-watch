@@ -22,7 +22,7 @@ const ContactPage = () => {
               <div className=" bg-[#7ba4d3]  py-3">
                 <img className="w-6 h-6 mx-auto" src={phone} />
               </div>
-              <div className="bg-[#F3F3F3] py-10 mx-5 mb-5">
+              <div className="bg-slate-300 py-10 mx-5 mb-5">
                 <h3 className="text-lg font-bold mb-2">PHONE</h3>
                 <p className="text-sm">+38 (012) 34 56 789</p>
                 <p className="text-sm">+38 (012) 34 56 789</p>
@@ -32,7 +32,7 @@ const ContactPage = () => {
               <div className=" bg-[#7ba4d3]  py-3">
                 <img className="w-6 h-6 mx-auto" src={location} />
               </div>
-              <div className="bg-[#F3F3F3] py-10 mx-5 mb-5">
+              <div className="bg-slate-300 py-10 mx-5 mb-5">
                 <h3 className="text-lg font-bold mb-2">ADDRESS</h3>
                 <p className="text-sm">+38 (012) 34 56 789</p>
                 <p className="text-sm">+38 (012) 34 56 789</p>
@@ -42,7 +42,7 @@ const ContactPage = () => {
               <div className=" bg-[#7ba4d3]  py-3">
                 <img className="w-6 h-6 mx-auto" src={clock} />
               </div>
-              <div className="bg-[#F3F3F3] py-10 mx-5 mb-5">
+              <div className="bg-slate-300 py-10 mx-5 mb-5">
                 <h3 className="text-lg font-bold mb-2">WORKING HOURS</h3>
                 <p className="text-sm">Mon - Fri: 08:00 - 22:00 </p>
                 <p className="text-sm">Sat - Sun: 10:00 - 23:00</p>
