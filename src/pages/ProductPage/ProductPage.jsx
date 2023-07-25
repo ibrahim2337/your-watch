@@ -1,4 +1,4 @@
-const BlogPage = () => {
+const ProductPage = () => {
   return (
     <div>
       <div>
@@ -9,7 +9,7 @@ const BlogPage = () => {
         </div>
         <div className=" text-center">
           <p className="mx-auto border-b-4 w-9/12 lg:w-4/12"></p>
-          <p className="text-3xl my-4 font-bold">OUR BLOGS </p>
+          <p className="text-3xl my-4 font-bold">OUR PRODUCT </p>
           <p className="mx-auto border-b-4 mb-12 w-9/12 lg:w-4/12 "></p>
         </div>
       </div>
@@ -17,4 +17,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default ProductPage;

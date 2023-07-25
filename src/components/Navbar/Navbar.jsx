@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -28,22 +28,24 @@ const Navbar = () => {
             >
               <li>
                 <Link to="/home">Home</Link>
-                <Link to="/product">Product</Link>
+                <Link to="/our-product">Our Product</Link>
                 <Link to="/blogs">Blogs</Link>
                 <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
-          <a  className="font-bold text-xl lg:text-3xl text-[#7ba4d3]">Your Watch</a>
+          <NavLink to="/" className="font-bold text-xl lg:text-3xl text-[#7ba4d3]">
+            Your Watch
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <div className="menu menu-horizontal px-1 gap-3">
             <Link to="/home" className="text-white text-xl font-semibold">
               Home
             </Link>
-        
-            <Link to="/product" className="text-white text-xl font-semibold">
-            Product
+
+            <Link to="/our-product" className="text-white text-xl font-semibold">
+             Our Product
             </Link>
             <Link to="/blogs" className="text-white text-xl font-semibold">
               Blogs
@@ -51,11 +53,12 @@ const Navbar = () => {
             <Link to="/contact" className="text-white text-xl font-semibold">
               Contact us
             </Link>
-           
           </div>
         </div>
         <div className="navbar-end">
-          <a className="px-5 py-2 bg-[#488ddb] rounded-md text-white text-xl font-semibold">Log In</a>
+          <Link className="px-5 py-2 bg-[#488ddb] rounded-md text-white text-xl font-semibold">
+            Log In
+          </Link>
         </div>
       </div>
     </div>

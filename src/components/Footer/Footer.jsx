@@ -21,7 +21,7 @@ const Footer = () => {
                   Analog, Digital and Smartwatch variation. We have popular
                   brands like- Fastrack, Casio, Fossil, Titan and so on. Buy
                   Authentic Watches with Warranty and express the elegant &
-                  style to your Loved one ❤️️❤️️❤️️
+                  style to your Loved one.
                 </p>
               </div>
             </div>
@@ -31,15 +31,15 @@ const Footer = () => {
               </p>
               <div className="flex">
                 <p className="mr-1 text-white">Phone:</p>
-                <a className="text-white">850-123-5021</a>
+                <a className="text-white">+880 1734454539</a>
               </div>
               <div className="flex">
-                <p className="mr-1 text-white">Email:</p>
-                <a className="text-white">info@lorem.mail</a>
+                <p className="mr-1 text-white">Gmail:</p>
+                <a className="text-white">yourwatch@gmail.com</a>
               </div>
               <div className="flex">
                 <p className="mr-1 text-white">Address:</p>
-                <a className="text-white">312 Lovely Street, NY</a>
+                <a className="text-white">Shawrapara, Mirpur-10</a>
               </div>
             </div>
             <div>
