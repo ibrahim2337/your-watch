@@ -27,14 +27,14 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
-                <a>Product</a>
-                <a>Blogs</a>
-                <a>Contact Us</a>
+                <Link to="/home">Home</Link>
+                <Link to="/product">Product</Link>
+                <Link to="/blogs">Blogs</Link>
+                <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
-          <a  className="font-bold text-xl lg:text-3xl lg:text-white">Your Watch</a>
+          <a  className="font-bold text-xl lg:text-3xl text-[#7ba4d3]">Your Watch</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <div className="menu menu-horizontal px-1 gap-3">
@@ -55,7 +55,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-end">
-          <a className="px-5 py-2 bg-[#7ba4d3] rounded-md text-white text-xl font-semibold">Log In</a>
+          <a className="px-5 py-2 bg-[#488ddb] rounded-md text-white text-xl font-semibold">Log In</a>
         </div>
       </div>
     </div>
