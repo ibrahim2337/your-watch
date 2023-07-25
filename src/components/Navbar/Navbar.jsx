@@ -1,10 +1,9 @@
-
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar fixed h-24 z-50 bg-black bg-opacity-30 px-20">
+      <div className="navbar h-24 pe-5 lg:px-20 bg-gradient-to-r from-[#7ba4d3] to-[#a8c6eb] ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -35,18 +34,28 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a  className="font-bold text-3xl hover:text-">Your Watch</a>
+          <a  className="font-bold text-xl lg:text-3xl text-white">Your Watch</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-5">
-            <li className="text-white text-xl font-semibold">Home</li>
-            <li className="text-white text-xl font-semibold">Product</li>
-            <li className="text-white text-xl font-semibold">Blogs</li>
-            <li className="text-white text-xl font-semibold">Contact Us</li>
-          </ul>
+          <div className="menu menu-horizontal px-1 gap-3">
+            <Link to="/home" className="text-white text-xl font-semibold">
+              Home
+            </Link>
+        
+            <Link to="/product" className="text-white text-xl font-semibold">
+            Product
+            </Link>
+            <Link to="/blogs" className="text-white text-xl font-semibold">
+              Blogs
+            </Link>
+            <Link to="/contact" className="text-white text-xl font-semibold">
+              Contact us
+            </Link>
+           
+          </div>
         </div>
         <div className="navbar-end">
-          <a className="px-3 py-2 bg-slate-400 rounded-md text-white text-xl font-semibold">Log In</a>
+          <a className="px-5 py-2 bg-[#7ba4d3] rounded-md text-white text-xl font-semibold">Log In</a>
         </div>
       </div>
     </div>
