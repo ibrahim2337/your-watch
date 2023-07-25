@@ -1,85 +1,116 @@
-import { Slide } from "hero-slider";
-import HeroSlider from "hero-slider/dist/HeroSlider";
-
-
-const img1 = "https://i.ibb.co/WDs53sZ/img1.png";
-const img2 = "https://i.ibb.co/g6wtd1H/img2.png";
-const img3 = "https://i.ibb.co/w0Lxcrx/img3.png";
-const img4 = "https://i.ibb.co/j4FQBNy/img4.png";
-const img5 = "https://i.ibb.co/J2SDbXM/img5.png";
-const img6 = "https://i.ibb.co/zRnNwhr/img6.png";
-const img7 = "https://i.ibb.co/9r7hQFG/img7.png";
+import img1 from "../../assets/banner/img1.png";
+import img2 from "../../assets/banner/img2.png";
+import img3 from "../../assets/banner/img3.png";
+import img4 from "../../assets/banner/img4.png";
+import img5 from "../../assets/banner/img5.png";
+import img6 from "../../assets/banner/img6.png";
+import img7 from "../../assets/banner/img7.png";
 
 const Banner = () => {
-    return (
-        
-         <div className="py-5">
-              {/* <HeroSlider
-               slidingAnimation="left_to _right"
-               orientation="horizontal"
-               initialSlide={1}
-               onBeforeChange={(previousSlide, nextSlide) => console.log("onBeforeChange",previousSlide, nextSlide)}
-               onChange={nextSlide => console.log(" onChange", nextSlide)}
-               onAfterChange={nextSlide => console.log("nextSlide", nextSlide)}
-               style={{
-                backgroundColor:"rgba(0,0,0,0.33)"
-               }}
-               setting={{
-                slidingDuration:250,
-                slidingDelay:100,
-                shouldAutoplay:true,
-                shouldDisplayButtons:true,
-                autoplayDuration:5000,
-                height:"100vh"
-               }}
-           >
-
-            <Slide
-                background={{
-                    backgroundImage:img1,
-                    backgroundAttachment: "fixed"
-                }}
-            />
-            <Slide>
-                background={{
-                    backgroundImage:img2,
-                    backgroundAttachment: "fixed"
-                }}
-            </Slide>
-            <Slide>
-                background={{
-                    backgroundImage:img3,
-                    backgroundAttachment: "fixed"
-                }}
-            </Slide>
-            <Slide>
-                background={{
-                    backgroundImage:img4,
-                    backgroundAttachment: "fixed"
-                }}
-            </Slide>
-            <Slide>
-                background={{
-                    backgroundImage:img5,
-                    backgroundAttachment: "fixed"
-                }}
-            </Slide>
-            <Slide>
-                background={{
-                    backgroundImage:img6,
-                    backgroundAttachment: "fixed"
-                }}
-            </Slide>
-            <Slide>
-                background={{
-                    backgroundImage:img7,
-                    backgroundAttachment: "fixed"
-                }}
-            </Slide>
-           </HeroSlider> */}
-         </div>
-       
-    );
+  return (
+    <div>
+      <div className="carousel w-full lg:h-[650px]">
+        <div id="slide1" className="carousel-item relative w-full lg:h-[650px]">
+          <img
+            src={img1}
+            className="w-full lg:h-[650px]"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide2" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide2" className="carousel-item relative w-full lg:h-[650px]">
+          <img
+            src={img2}
+            className="w-full lg:h-[650px] "
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide3" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full lg:h-[650px]">
+          <img
+            src={img3}
+            className="w-full lg:h-[650px]"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide4" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide4" className="carousel-item relative w-full lg:h-[650px]">
+          <img
+            src={img4}
+            className="w-full lg:h-[650px]"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide5" className="carousel-item relative w-full lg:h-[650px]">
+          <img
+            src={img5}
+            className="w-full lg:h-[650px]"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide6" className="carousel-item relative w-full lg:h-[650px]">
+          <img
+            src={img6}
+            className="w-full lg:h-[650px]"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide7" className="carousel-item relative w-full lg:h-[650px]">
+          <img
+            src={img7}
+            className="w-full lg:h-[650px]"
+          />
+          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Banner;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar h-24 pe-5 lg:px-20 bg-gradient-to-r from-[#7ba4d3] to-[#a8c6eb] ">
+      <div className="navbar h-24 lg:fixed lg:z-50 lg:opacity-40 lg:bg-black  pe-5 lg:px-20">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a  className="font-bold text-xl lg:text-3xl text-white">Your Watch</a>
+          <a  className="font-bold text-xl lg:text-3xl lg:text-white">Your Watch</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <div className="menu menu-horizontal px-1 gap-3">
