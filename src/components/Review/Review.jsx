@@ -16,7 +16,7 @@ const Review = () => {
       <section className="my-8">
         <div className="grid lg:grid-cols-3 gap-5 px-5 lg:px-24">
           <div className="">
-            <div className="px-4 py-12 rounded-t-lg  bg-slate-300 sm:px-8 md:px-12">
+            <div className="px-4 py-12 rounded-t-lg  bg-[#dfeafc] sm:px-8 md:px-12">
               <p className="relative left-0 pt-5 px-5 bg-white rounded-md text-lg text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,14 +47,14 @@ const Review = () => {
               <img
                 src="https://source.unsplash.com/50x50/?portrait?1"
                 alt=""
-                className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full"
+                className="w-20 h-20 mb-2 -mt-16 bg-center bg-cover rounded-3xl"
               />
               <p className="text-xl font-semibold leadi">Distinctio Animi</p>
               
             </div>
           </div>
           <div className="">
-            <div className="px-4 py-12 rounded-t-lg  bg-slate-300 sm:px-8 md:px-12">
+            <div className="px-4 py-12 rounded-t-lg  bg-[#dfeafc] sm:px-8 md:px-12">
               <p className="relative left-0 pt-5 px-5 bg-white rounded-md text-lg text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -85,14 +85,14 @@ const Review = () => {
               <img
                 src="https://source.unsplash.com/50x50/?portrait?1"
                 alt=""
-                className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full"
+                className="w-20 h-20 mb-2 -mt-16 bg-center bg-cover rounded-3xl"
               />
               <p className="text-xl font-semibold leadi">Distinctio Animi</p>
               
             </div>
           </div>
           <div className="">
-            <div className="px-4 py-12 rounded-t-lg  bg-slate-300 sm:px-8 md:px-12">
+            <div className="px-4 py-12 rounded-t-lg  bg-[#dfeafc] sm:px-8 md:px-12">
               <p className="relative left-0 pt-5 px-5 bg-white rounded-md text-lg text-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +123,7 @@ const Review = () => {
               <img
                 src="https://source.unsplash.com/50x50/?portrait?1"
                 alt=""
-                className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full"
+                className="w-20 h-20 mb-2 -mt-16 bg-center bg-cover rounded-3xl"
               />
               <p className="text-xl font-semibold leadi">Distinctio Animi</p>
               

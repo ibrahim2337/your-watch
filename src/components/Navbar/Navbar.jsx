@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar h-24 lg:fixed lg:z-50 lg:opacity-40 lg:bg-black  pe-5 lg:px-20">
+      <div className="navbar h-20 pe-5 lg:px-20 bg-[#7ba4d3]">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <NavLink to="/" className="font-bold text-xl lg:text-3xl text-[#7ba4d3]">
+          <NavLink to="/" className="font-bold text-xl lg:text-3xl text-white">
             Your Watch
           </NavLink>
         </div>

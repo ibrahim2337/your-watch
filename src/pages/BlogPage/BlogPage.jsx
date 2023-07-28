@@ -2,7 +2,7 @@ const BlogPage = () => {
   return (
     <div>
       <div>
-        <div className=" text-center pt-28">
+        <div className=" text-center mt-7">
           <p className=" text-center text-xl text-[#6494cc]  mb-2">
             ---Visit Us---
           </p>
