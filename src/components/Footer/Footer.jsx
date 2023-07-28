@@ -83,7 +83,7 @@ const Footer = () => {
           </div>
           <div className=" pt-5 pb-10 border-t lg:flex-row ">
             <p className="text-sm text-center text-white">
-              ©Copyright 2023 Fancy Clothes All rights reserved.
+              ©Copyright 2023 Your Watch All rights reserved.
             </p>
           </div>
         </div>

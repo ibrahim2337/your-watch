@@ -1,8 +1,22 @@
 import phone from "../../assets/contact/phone.png";
 import location from "../../assets/contact/location.png";
 import clock from "../../assets/contact/clock.png";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactPage = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_921npf3', 'template_ppiwlyq', form.current, 'GeKPzMP0z0QSv5ZIC')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div className="mb-5">
       <div className="">
@@ -67,7 +81,7 @@ const ContactPage = () => {
         <div className="container mx-auto text-center ">
           <div className="px-5  lg:px-40">
             <div className="p-4 py-6 rounded-lg bg-[#F3F3F3]  md:p-8">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="-mx-2 md:items-center md:flex">
                   <div className="flex-1 px-2">
                     <label className="block mb-2 text-md font-semibold text-start">
@@ -75,6 +89,7 @@ const ContactPage = () => {
                     </label>
                     <input
                       type="text"
+                      name="user_name"
                       placeholder="Enter Your First Name"
                       className="block w-full px-5 py-2.5 mt-2 rounded-md placeholder-gray-400  focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
@@ -86,6 +101,7 @@ const ContactPage = () => {
                     </label>
                     <input
                       type="text"
+                      name="user_name"
                       placeholder="Enter Your Last Name"
                       className="block w-full px-5 py-2.5 mt-2 rounded-md placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     />
@@ -98,6 +114,7 @@ const ContactPage = () => {
                   </label>
                   <input
                     type="email"
+                    name="user_email"
                     placeholder="Enter Your Email Address"
                     className="block w-full px-5 py-2.5 mt-2 rounded-md placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                   />
@@ -110,6 +127,7 @@ const ContactPage = () => {
                   <textarea
                     className="block w-full px-5 py-2.5 mt-2 mb-20 rounded-md placeholder-gray-400 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
                     placeholder="Message"
+                    name="message"
                   ></textarea>
                 </div>
 
@@ -119,6 +137,9 @@ const ContactPage = () => {
               </form>
             </div>
           </div>
+        </div>
+        <div>
+        
         </div>
       </div>
     </div>

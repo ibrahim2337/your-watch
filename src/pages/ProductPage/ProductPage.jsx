@@ -13,6 +13,9 @@ const ProductPage = () => {
           <p className="mx-auto border-b-4 mb-12 w-9/12 lg:w-4/12 "></p>
         </div>
       </div>
+        
+        
+
     </div>
   );
 };
