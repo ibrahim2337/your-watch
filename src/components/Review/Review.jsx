@@ -4,7 +4,7 @@ const Review = () => {
   return (
     <div>
       <div>
-        <div className=" text-center pt-28">
+        <div className=" text-center">
           <p className=" text-center text-xl text-[#6494cc]  mb-2">
             ---Visit Us---
           </p>

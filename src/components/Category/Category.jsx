@@ -15,35 +15,35 @@ const Category = () => {
     <div className="my-10">
       <Marquee>
         <div className="flex flex-row gap-10">
-          <div className=" border-4 border-[#7ba4d3]">
-            <img src={img1} className="h-20" alt="" />
+          <div className=" border-4 rounded-md border-[#7ba4d3]">
+            <img src={img1} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img3} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img3} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img4} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img4} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img5} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img5} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img6} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img6} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img7} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img7} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img8} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img8} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img2} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img2} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="border-4 border-[#7ba4d3]">
-            <img src={img9} className="h-20" alt="" />
+          <div className="border-4 rounded-md border-[#7ba4d3]">
+            <img src={img9} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
-          <div className="me-10 border-4 border-[#7ba4d3]">
-            <img src={img10} className="h-20" alt="" />
+          <div className="me-10 border-4 rounded-md border-[#7ba4d3]">
+            <img src={img10} className="h-20 hover:scale-125 duration-300" alt="" />
           </div>
         </div>
       </Marquee>
