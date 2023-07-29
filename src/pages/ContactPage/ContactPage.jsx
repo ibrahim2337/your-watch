@@ -3,6 +3,7 @@ import location from "../../assets/contact/location.png";
 import clock from "../../assets/contact/clock.png";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import "./ContactPage.css"
 
 const ContactPage = () => {
   const form = useRef();
@@ -18,11 +19,11 @@ const ContactPage = () => {
       });
   };
   return (
-    <div className="mb-5">
+    <div className="mb-10">
       <div className="">
         <div>
           <div className=" text-center mt-7">
-            <p className=" text-center text-xl text-[#6494cc]  mb-2">
+            <p className=" text-center text-xl text-[#28C8A4]  mb-2">
               ---Visit Us---
             </p>
           </div>
@@ -33,30 +34,30 @@ const ContactPage = () => {
           </div>
           <div className="container mx-auto px-5 grid grid-cols-1 gap-5 lg:grid-cols-3 lg:px-40 text-center  ">
             <div className="border rounded-b-3xl">
-              <div className=" bg-[#7ba4d3]  py-3">
+              <div className=" bg-[#28C8A4]  py-3">
                 <img className="w-6 h-6 mx-auto" src={phone} />
               </div>
-              <div className="bg-[#dfeafc] py-10 mx-5 mb-5 rounded-b-3xl">
+              <div className="bg-[#a6f5dd] py-10 mx-5 mb-5 rounded-b-3xl">
                 <h3 className="text-lg font-bold mb-2">PHONE</h3>
                 <p className="text-sm">+38 (012) 34 56 789</p>
                 <p className="text-sm">+38 (012) 34 56 789</p>
               </div>
             </div>
             <div className="border rounded-b-3xl">
-              <div className=" bg-[#7ba4d3]  py-3">
+              <div className=" bg-[#28C8A4]  py-3">
                 <img className="w-6 h-6 mx-auto" src={location} />
               </div>
-              <div className="bg-[#dfeafc] py-10 mx-5 mb-5 rounded-b-3xl">
+              <div className="bg-[#a6f5dd] py-10 mx-5 mb-5 rounded-b-3xl">
                 <h3 className="text-lg font-bold mb-2">ADDRESS</h3>
                 <p className="text-sm">+38 (012) 34 56 789</p>
                 <p className="text-sm">+38 (012) 34 56 789</p>
               </div>
             </div>
             <div className="border rounded-b-3xl">
-              <div className=" bg-[#7ba4d3]  py-3">
+              <div className=" bg-[#28C8A4]  py-3">
                 <img className="w-6 h-6 mx-auto" src={clock} />
               </div>
-              <div className="bg-[#dfeafc] py-10 mx-5 mb-5 rounded-b-3xl">
+              <div className="bg-[#a6f5dd] py-10 mx-5 mb-5 rounded-b-3xl">
                 <h3 className="text-lg font-bold mb-2">WORKING HOURS</h3>
                 <p className="text-sm">Mon - Fri: 08:00 - 22:00 </p>
                 <p className="text-sm">Sat - Sun: 10:00 - 23:00</p>
@@ -68,7 +69,7 @@ const ContactPage = () => {
 
       <div>
         <div className="text-center mt-20">
-          <p className="text-center text-xl text-[#6494cc] mb-2">
+          <p className="text-center text-xl text-[#28C8A4] mb-2">
             ---Send Us a Message---
           </p>
         </div>
@@ -80,7 +81,7 @@ const ContactPage = () => {
 
         <div className="container mx-auto text-center ">
           <div className="px-5  lg:px-40">
-            <div className="p-4 py-6 rounded-lg bg-[#dfeafc]  md:p-8">
+            <div className="image p-4 py-6 rounded-lg  md:p-8">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="-mx-2 md:items-center md:flex">
                   <div className="flex-1 px-2">
@@ -131,7 +132,7 @@ const ContactPage = () => {
                   ></textarea>
                 </div>
 
-                <button className="w-full px-6 py-3   text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg bg-gradient-to-r from-[#7ba4d3] to-[#a8c6eb] ">
+                <button className="w-full px-6 py-3   text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform  rounded-lg bg-gradient-to-r from-[#28C8A4] to-[#459483] ">
                   Send message
                 </button>
               </form>

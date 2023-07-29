@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <div className="bg-gradient-to-r from-[#7ba4d3] to-[#a8c6eb]">
+      <div className="bg-gradient-to-r from-[#28C8A4] to-[#459483]">
         <div className="px-5 pt-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
           <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="sm:col-span-2">

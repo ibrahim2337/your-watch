@@ -13,7 +13,7 @@ const Gallery = () => {
     <div>
       <div>
         <div className=" text-center">
-          <p className=" text-center text-xl text-[#6494cc]  mb-2">
+          <p className=" text-center text-xl text-[#28C8A4]  mb-2">
             ---Visit Us---
           </p>
         </div>
