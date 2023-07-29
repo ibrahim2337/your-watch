@@ -68,7 +68,7 @@ const Gallery = () => {
             </div>
             <div>
               <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
-                Popular
+              Popular
               </p>
               <img
                 className="object-cover w-full  rounded-lg aspect-square"
@@ -77,7 +77,7 @@ const Gallery = () => {
             </div>
             <div>
               <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
-                Popular
+                New
               </p>
               <img
                 className="object-cover w-full  rounded-lg aspect-square"
@@ -86,7 +86,7 @@ const Gallery = () => {
             </div>
             <div>
               <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
-                Popular
+                New
               </p>
               <img
                 className="object-cover w-full  rounded-lg aspect-square"
@@ -95,7 +95,7 @@ const Gallery = () => {
             </div>
             <div>
               <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
-                Popular
+                New
               </p>
               <img
                 className="object-cover w-full  rounded-lg aspect-square"
@@ -104,7 +104,7 @@ const Gallery = () => {
             </div>
             <div>
               <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
-                Popular
+                new
               </p>
               <img
                 className="object-cover w-full  rounded-lg aspect-square"

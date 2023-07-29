@@ -3,6 +3,7 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../../provider/AuthProvider";
 import { Link, useNavigate } from "react-router-dom";
+import "./RegisterPage.css"
 
 
 
@@ -62,8 +63,8 @@ const RegisterPage = () => {
 
     return (
 
-       <>
-        <div className="container mx-auto w-11/12 md:w-7/12 lg:w-5/12 p-8 my-5 rounded-md sm:p-10 text-neutral bg-gray-300">
+       <div>
+        <div className="image container mx-auto w-11/12 md:w-7/12 lg:w-5/12 p-8 my-5 rounded-md sm:p-10 text-neutral bg-gray-300">
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-bold">Register</h1>
         </div>
@@ -83,7 +84,7 @@ const RegisterPage = () => {
                 name="name"
                 id="name"
                 placeholder="Name"
-                className="w-full px-3 py-2 border rounded-md border-gray-600 bg-secondary text-neutral"
+                className="w-full px-3 py-2 border rounded-md border-gray-600 bg-white text-neutral"
               />
             </div>
             <div>
@@ -95,7 +96,7 @@ const RegisterPage = () => {
                 name="photo"
                 id="photo"
                 placeholder="Photo Link"
-                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-secondary text-neutral"
+                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-neutral"
               />
             </div>
             <div>
@@ -107,7 +108,7 @@ const RegisterPage = () => {
                 name="email"
                 id="email"
                 placeholder="example@email.com  "
-                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-secondary text-neutral"
+                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-neutral"
                 required
               />
             </div>
@@ -122,7 +123,7 @@ const RegisterPage = () => {
                 name="password"
                 id="password"
                 placeholder="*****"
-                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-secondary text-neutral"
+                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-neutral"
                 required
               />
             </div>
@@ -137,7 +138,7 @@ const RegisterPage = () => {
                 name="confirm"
                 id="confirm"
                 placeholder="*****"
-                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-secondary text-neutral"
+                className="w-full px-3 py-2 border rounded-md border-gray-700 bg-white text-neutral"
                 required
               />
             </div>
@@ -165,7 +166,7 @@ const RegisterPage = () => {
               <button
                 disabled={!accepted}
                 type="submit"
-                className="w-full px-8 py-3 font-semibold rounded-md text-white border-md rounded-b-md bg-gradient-to-r from-gray-600 to-gray-400 bg-neutral disabled:opacity-70 disabled:cursor-not-allowed"
+                className="w-full px-8 py-3 font-semibold rounded-md text-white border-md rounded-b-md bg-gradient-to-r from-[#7ba4d3] to-[#a8c6eb] bg-neutral disabled:opacity-70 disabled:cursor-not-allowed"
               >
                 Register
               </button>
@@ -179,7 +180,7 @@ const RegisterPage = () => {
           </div>
         </form>
       </div>
-       </>
+       </div>
     );
 };
 

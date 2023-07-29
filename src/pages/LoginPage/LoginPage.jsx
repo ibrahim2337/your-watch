@@ -96,7 +96,7 @@ const LoginPage = () => {
           <small>
             <p className="text-error -mt-2">{error.split("Firebase:")}</p>
           </small>
-          <button className="block w-full p-3 text-center rounded-md text-white bg-gradient-to-r from-gray-600 to-gray-400">
+          <button className="block w-full p-3 text-center rounded-md text-white bg-gradient-to-r from-[#7ba4d3] to-[#a8c6eb]">
             Sign in
           </button>
         </form>
