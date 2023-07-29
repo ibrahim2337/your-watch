@@ -56,7 +56,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="navbar-end">
-          <Link className="px-5 py-2 bg-[#488ddb] rounded-md text-white text-xl font-semibold">
+          <Link to="/login" className="px-5 py-2 bg-[#488ddb] rounded-md text-white text-xl font-semibold">
             Log In
           </Link>
         </div>

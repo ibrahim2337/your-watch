@@ -1,4 +1,14 @@
+import { useEffect, useState } from "react";
+import { Watch } from  'react-loader-spinner'
+
 const Gallery = () => {
+  const [loading , setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+  }, []);
   return (
     <div>
       <div>
@@ -14,6 +24,19 @@ const Gallery = () => {
         </div>
       </div>
       <section className="mt-10 mb-20">
+        {
+          loading?
+          <Watch
+  height="80"
+  width="80"
+  radius="48"
+  color="#4fa94d"
+  ariaLabel="watch-loading"
+  wrapperStyle={{}}
+  wrapperClassName=""
+  visible={true}
+/> : false
+        }
         <div className="container flex flex-col justify-center px-5 lg:px-20 mx-auto">
           <div className=" grid grid-cols-1 gap-10 lg:grid-cols-4 sm:grid-cols-2">
             <div>
