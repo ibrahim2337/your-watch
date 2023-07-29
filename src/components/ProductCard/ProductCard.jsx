@@ -1,4 +1,4 @@
-import "./ProductPage.css"
+import ratingIcon from "../../assets/icons/rating (1).png";
 
 const ProductCard = () => {
   return (
@@ -27,14 +27,20 @@ const ProductCard = () => {
               alt=""
             />
           </div>
-          <div className="text-center">
-            <h3 className="pt-4 text-lg px-5 font-bold">TITAN NP1865NL01 Workwear Black Dial Leather Strap Watch</h3>
+          <div className="text-center ">
+            <h3 className="pt-4 text-lg px-5 font-bold">
+              TITAN NP1865NL01 Workwear Black Dial Leather Strap Watch
+            </h3>
             <p className="mt-2 font-medium text-sm">Details</p>
             <p className="text-2xl font-bold mt-2 text-[#28C8A4]">$100</p>
-            <p className="mt-2">Rating</p>
+            <div className="flex flex-row justify-center mt-2">
+              <img src={ratingIcon} className="w-24 h-5" alt="" />
+            </div>
           </div>
-          <div className="bg-gradient-to-r from-[#28C8A4] to-[#459483] rounded-tr-full rounded-tl-full
-           text-center mt-3 ">
+          <div
+            className="bg-gradient-to-r from-[#28C8A4] to-[#459483] rounded-tr-full rounded-tl-full
+           text-center mt-3 "
+          >
             <button className="py-3 font-bold text-base  text-white uppercase">
               Add to Cart
             </button>
@@ -52,13 +58,19 @@ const ProductCard = () => {
             />
           </div>
           <div className="text-center">
-            <h3 className="pt-4 text-lg px-5 font-bold">TITAN NP1865NL01 Workwear Black Dial Leather Strap Watch</h3>
+            <h3 className="pt-4 text-lg px-5 font-bold">
+              TITAN NP1865NL01 Workwear Black Dial Leather Strap Watch
+            </h3>
             <p className="mt-2 font-medium text-sm">Details</p>
             <p className="text-2xl font-bold mt-2 text-[#28C8A4]">$100</p>
-            <p className="mt-2">Rating</p>
+            <div className="flex flex-row justify-center mt-2">
+              <img src={ratingIcon} className="w-24 h-5" alt="" />
+            </div>
           </div>
-          <div className="bg-gradient-to-r from-[#28C8A4] to-[#459483] rounded-tr-full rounded-tl-full
-           text-center mt-3 ">
+          <div
+            className="bg-gradient-to-r from-[#28C8A4] to-[#459483] rounded-tr-full rounded-tl-full
+           text-center mt-3 "
+          >
             <button className="py-3 font-bold text-base  text-white uppercase">
               Add to Cart
             </button>
@@ -76,19 +88,24 @@ const ProductCard = () => {
             />
           </div>
           <div className="text-center">
-            <h3 className="pt-4 text-lg px-5 font-bold">TITAN NP1865NL01 Workwear Black Dial Leather Strap Watch</h3>
+            <h3 className="pt-4 text-lg px-5 font-bold">
+              TITAN NP1865NL01 Workwear Black Dial Leather Strap Watch
+            </h3>
             <p className="mt-2 font-medium text-sm">Details</p>
             <p className="text-2xl font-bold mt-2 text-[#28C8A4]">$100</p>
-            <p className="mt-2">Rating</p>
+            <div className="flex flex-row justify-center mt-2">
+              <img src={ratingIcon} className="w-24 h-5" alt="" />
+            </div>
           </div>
-          <div className="bg-gradient-to-r from-[#28C8A4] to-[#459483] rounded-tr-full rounded-tl-full
-           text-center mt-3 ">
+          <div
+            className="bg-gradient-to-r from-[#28C8A4] to-[#459483] rounded-tr-full rounded-tl-full
+           text-center mt-3 "
+          >
             <button className="py-3 font-bold text-base  text-white uppercase">
               Add to Cart
             </button>
           </div>
         </div>
-        
       </div>
     </div>
   );
