@@ -45,8 +45,8 @@ const Gallery = () => {
                 Popular
               </p>
               <img
-                className=" object-cover w-full rounded-lg aspect-square"
-                src="https://i.ibb.co/DYNJK12/pexels-photo-1857375.jpg"
+                className=" object-cover w-full border-2 rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
             <div>
@@ -54,8 +54,8 @@ const Gallery = () => {
                 Popular
               </p>
               <img
-                className="object-cover w-full  rounded-lg aspect-square"
-                src="https://i.ibb.co/t3Ndt8P/pexels-photo-2755612.jpg"
+                className="object-cover w-full border-2 rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
             <div>
@@ -63,8 +63,8 @@ const Gallery = () => {
                 Popular
               </p>
               <img
-                className="object-cover w-full  rounded-lg aspect-square"
-                src="https://i.ibb.co/TtnDHb9/pexels-photo-2737004.jpg"
+                className="object-cover w-full border-2 rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
             <div>
@@ -72,8 +72,8 @@ const Gallery = () => {
                 Popular
               </p>
               <img
-                className="object-cover w-full  rounded-lg aspect-square"
-                src="https://i.ibb.co/F6hCy6j/pexels-photo-2681751.jpg"
+                className="object-cover w-full border-2 rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
             <div>
@@ -81,8 +81,8 @@ const Gallery = () => {
                 New
               </p>
               <img
-                className="object-cover w-full  rounded-lg aspect-square"
-                src="https://i.ibb.co/WVNxQkx/pexels-photo-2584269.jpg"
+                className="object-cover w-full border-2 rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
             <div>
@@ -90,8 +90,8 @@ const Gallery = () => {
                 New
               </p>
               <img
-                className="object-cover w-full  rounded-lg aspect-square"
-                src="https://i.ibb.co/9868hrD/pexels-photo-2829373.jpg"
+                className="object-cover w-full border-2 rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
             <div>
@@ -99,8 +99,8 @@ const Gallery = () => {
                 New
               </p>
               <img
-                className="object-cover w-full  rounded-lg aspect-square"
-                src="https://i.ibb.co/txSTCQn/pexels-photo-2034435.jpg"
+                className="object-cover w-full border-2 rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
             <div>
@@ -108,8 +108,8 @@ const Gallery = () => {
                 new
               </p>
               <img
-                className="object-cover w-full  rounded-lg aspect-square"
-                src="https://i.ibb.co/ZfsPCjq/wedding-dresses-fashion-character-bride-157757.jpg"
+                className="object-cover w-full  border-2  rounded-lg aspect-square"
+                src="https://www.penguin.com.bd/wp-content/uploads/2022/10/1865NL01_2.png"
               />
             </div>
           </div>

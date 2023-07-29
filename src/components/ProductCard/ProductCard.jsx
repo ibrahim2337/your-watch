@@ -107,6 +107,11 @@ const ProductCard = () => {
           </div>
         </div>
       </div>
+      <div className="mt-10 flex flex-row justify-center">
+        <button className="px-5 py-2 text-center rounded-md font-bold text-white bg-gradient-to-r from-[#28C8A4] to-[#459483] uppercase">
+          see all product
+        </button>
+      </div>
     </div>
   );
 };
