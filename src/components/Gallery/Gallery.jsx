@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { Watch } from  'react-loader-spinner'
+import { Watch } from "react-loader-spinner";
 
 const Gallery = () => {
-  const [loading , setLoading] = useState(false);
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
@@ -24,23 +24,24 @@ const Gallery = () => {
         </div>
       </div>
       <section className="mt-10 mb-20">
-        {
-          loading?
+        {loading ? (
           <Watch
-  height="80"
-  width="80"
-  radius="48"
-  color="#4fa94d"
-  ariaLabel="watch-loading"
-  wrapperStyle={{}}
-  wrapperClassName=""
-  visible={true}
-/> : false
-        }
+            height="80"
+            width="80"
+            radius="48"
+            color="#4fa94d"
+            ariaLabel="watch-loading"
+            wrapperStyle={{}}
+            wrapperClassName=""
+            visible={true}
+          />
+        ) : (
+          false
+        )}
         <div className="container flex flex-col justify-center px-5 lg:px-20 mx-auto">
           <div className=" grid grid-cols-1 gap-10 lg:grid-cols-4 sm:grid-cols-2">
             <div>
-              <p className="absolute bg-black text-white my-2 ms-2 px-3 py-1 rounded-lg">
+              <p className="absolute bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
                 Popular
               </p>
               <img
@@ -49,7 +50,7 @@ const Gallery = () => {
               />
             </div>
             <div>
-              <p className="absolute bg-black text-white my-2 ms-2 px-3 py-1 rounded-lg">
+              <p className="absolute  bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
                 Popular
               </p>
               <img
@@ -58,7 +59,7 @@ const Gallery = () => {
               />
             </div>
             <div>
-              <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
+              <p className="absolute  bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
                 Popular
               </p>
               <img
@@ -67,8 +68,8 @@ const Gallery = () => {
               />
             </div>
             <div>
-              <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
-              Popular
+              <p className="absolute bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
+                Popular
               </p>
               <img
                 className="object-cover w-full  rounded-lg aspect-square"
@@ -76,7 +77,7 @@ const Gallery = () => {
               />
             </div>
             <div>
-              <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
+              <p className="absolute  bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
                 New
               </p>
               <img
@@ -85,7 +86,7 @@ const Gallery = () => {
               />
             </div>
             <div>
-              <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
+              <p className="absolute  bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
                 New
               </p>
               <img
@@ -94,7 +95,7 @@ const Gallery = () => {
               />
             </div>
             <div>
-              <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
+              <p className="absolute  bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
                 New
               </p>
               <img
@@ -103,7 +104,7 @@ const Gallery = () => {
               />
             </div>
             <div>
-              <p className="absolute bg-black text-white my-2  ms-2 px-3 py-1 rounded-lg">
+              <p className="absolute  bg-red-600 text-white my-2  ms-2 px-4 py-0.5 rounded-md text-sm">
                 new
               </p>
               <img
