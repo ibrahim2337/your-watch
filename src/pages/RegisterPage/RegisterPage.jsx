@@ -63,7 +63,7 @@ const RegisterPage = () => {
     return (
 
        <>
-        <div className="container mx-auto w-11/12 md:w-7/12 lg:w-5/12 my-8 p-8 mt-28 rounded-md sm:p-10 text-neutral bg-gray-300">
+        <div className="container mx-auto w-11/12 md:w-7/12 lg:w-5/12 p-8 my-5 rounded-md sm:p-10 text-neutral bg-gray-300">
         <div className="mb-8 text-center">
           <h1 className="text-4xl font-bold">Register</h1>
         </div>
